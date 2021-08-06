@@ -1,1 +1,9 @@
-# Pyspark_Weather_ETL
+# Pyspark Weather ETL
+
+***Description***
+
+***Essentials***
+
+***ETL Execution***
+
+***Extras***
