@@ -2,7 +2,7 @@
 
 ***Description***
 
-Current Weather ETL Data Engineering Project. Script extracts the current weather of 2 different countries, verifies data doesn't have null values nor any primary key is violated and uploads the data into two different Postgresql tables using SQLAlchemy. In the extraction process pyspark is used for the extraction of the data from the requested json files and the creation of the dataframes  and then those dataframes are changed to pandas dataframes for the transformation and load stage. The API that is used is called  Weatherbit from RapidAPI.  
+Current Weather ETL Data Engineering Project. Script extracts the current weather of 2 different countries, verifies data doesn't have null values nor any primary key is violated and then uploads the data into two different Postgresql tables using SQLAlchemy. Pyspark is used for the extraction of the data from and the creation of the dataframes and then those dataframes are changed to pandas dataframes for the transformation and load stage. The API that is used is called  Weatherbit from RapidAPI.  
 
 ***Essentials***
 - Extra libraries that must be imported: sys, json, datetime. 
