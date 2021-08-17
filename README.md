@@ -16,4 +16,4 @@ Current Weather ETL Data Engineering Project. Script extracts the current weathe
 
 ***Extras***
 - To verify that your scheduled job is working you can change the crontab to "* * * * *".
-- ETL project is not finished yet. Upcoming update will have a dashboard that will show the daily average weather, weekly average weather, monthly average weather and quarterly average weather of both countries for comparison.
+- New Version WIP
