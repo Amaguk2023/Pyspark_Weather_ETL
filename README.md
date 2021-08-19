@@ -16,4 +16,4 @@ Current Weather ETL Data Engineering Project. Script extracts the current weathe
 
 ***Extras***
 - To verify that your scheduled job is working you can change the crontab to "* * * * *".
-- Airflow folder included. This has the DAG file + Modules for Apache Airflow Scheduler. Original weather module has been divided into two. 
+- Airflow folder included. This has the DAG file + Modules for Apache Airflow Scheduler. The Modules folder includes the Original weather module divided into two Weather_A and Weather_B. 
