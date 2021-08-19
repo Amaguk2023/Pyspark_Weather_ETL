@@ -18,24 +18,18 @@ default_args = {
 }
 
 dag = DAG(
-	'Weather_RPT9', 
+	'Weather_A', 
 	default_args=default_args,
-	description="Weather",
+	description="Weather_A",
 	catchup=False,
 	schedule_interval="0 0 * * *"
 )
 
 
-weather_etl_run = PythonOperator(
+weather_A_run = PythonOperator(
 	task_id="weather_project",
 	python_callable=wextraction,
 	dag=dag
 )
-
-#spotify_etl_run = BashOperator(
-	#task_id="weather_project",
-	#bash_command='/Users/ernesto/Desktop/weather_etl.sh',
-	#dag=dag
-#)
 
 weather_etl_run 
