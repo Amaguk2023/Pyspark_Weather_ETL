@@ -22,7 +22,7 @@ dag = DAG(
 	default_args=default_args,
 	description="Weather",
 	catchup=False,
-	schedule_interval="*/10 * * * *"
+	schedule_interval="0 0 * * *"
 )
 
 
